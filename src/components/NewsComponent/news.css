@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.newsBox{
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.2);
+    display: flex;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.newsImage{
+    object-fit: cover;
+    width: 320px;
+    height: 268px;
+    border-radius: 5px;
+}
+.title{
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+}
+.aboutNews{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px ;
+}
+.title-author{
+    display: flex;
+    flex-direction: column;
+}
+.author{
+    font-size: 12px;
+    padding-top: 8px ;
+    padding-bottom: 14px;
+    font-weight: 300;
+    color: rgba(0,0,0,0.6);
+    font-family: 'Sora', sans-serif;
+}
+.description{
+    font-size: 16px;
+    font-weight: 300;
+}
+.author a b{
+    font-weight: bold;
+    color: #000;
+}
+.readMore{
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+}
+.readMore a{
+    color: #000;
+}
+
+
+.loadMore{
+    text-align: center;
+}
+.loadMore button{
+    border: none;
+    background: none;
+    border: 1px solid tomato;
+    padding: 8px 20px;
+    color: tomato;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.loadMore button:hover{
+    background: rgb(247, 71, 40);
+    color: #fff;
+}

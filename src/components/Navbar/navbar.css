@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+nav{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    margin-bottom: 3rem;
+}
+nav i{
+    font-size: 1.5rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.aboutLogo{
+    padding-left: 4px;
+    text-align: right;
+    line-height: 10px;
+}
+.aboutLogo h4{
+    font-weight: 550;
+    font-size: 16px;
+}
+.aboutLogo small{
+    color: rgba(0,0,0,0.4);
+    font-size: 10px;
+}
+
+.logoImage{
+    height: 45px;
+}
+
+/* ==============footer=========== */
+.footer{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    margin-top: 3rem;
+}
+
+.newsFeed{
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.category{
+    padding-left: 16px;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
