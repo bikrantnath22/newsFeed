@@ -8,7 +8,7 @@ const Navigation = ({setCategory}) => {
         <Sidenav setCategory={setCategory}/>
       </div>
       <div className='logo'>
-            <img src='/images/logo.png' className='logoImage' alt='some value'></img>
+            <img src="/images/news_logo.png" className='logoImage' alt='logo'></img>
             <span className='aboutLogo'>
                 <h4>NewsFeed</h4>
                 <small>Stay informed</small>

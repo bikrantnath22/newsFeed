@@ -22,7 +22,7 @@ const NewsCard = ({ newsItem }) => {
   return (
     <Container maxWidth="md" key={newsItem.title}>
             <div className='newsBox'>
-                <img alt="news" src={newsItem.urlToImage ? newsItem.urlToImage : '/images/picture.png'} className="newsImage" />
+                <img alt="news" src={newsItem.urlToImage ? newsItem.urlToImage : '/images/placeholder.png'} className="newsImage" />
             <div className='aboutNews'>
                     <div className='title-author'>
                         <span className='title'>{newsItem.title}</span>

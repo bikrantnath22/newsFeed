@@ -78,3 +78,28 @@
     background: rgb(247, 71, 40);
     color: #fff;
 }
+
+@media only screen and (max-width: 800px){
+    .newsBox{
+        display: flex;
+        flex-direction: column;
+    }
+    .newsImage{
+        object-fit: cover;
+        width: 100%;
+        height: 268px;
+        border-radius: 5px;
+    }.aboutNews{
+        padding-left: 0;
+        padding-top: 10px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .newsBox{
+        display: flex;
+        flex-direction: column;
+    }.aboutNews{
+        padding-left: 0;
+        padding-top: 10px;
+    }
+}
